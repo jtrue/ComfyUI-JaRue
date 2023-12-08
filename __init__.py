@@ -10,7 +10,8 @@ node_list = [ #Add list of .py files containing nodes here
     "jru_concatstring",
     "jru_float2int",
     "jru_string2int",
-    "jru_int2string"
+    "jru_int2string",
+    "jru_youtube2prompt"
 
 ]
 
