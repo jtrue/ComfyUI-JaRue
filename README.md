@@ -1,6 +1,8 @@
 # ComfyUI-JaRue
 Takes a YouTube Video ID and pulls a transcript (if available) from the YouTube server and delivers it in a format you can link to AnimatedDiff or any other ComfyUI batch animation. 
 
+![youtube2prompt](https://github.com/jtrue/ComfyUI-JaRue/assets/5502214/d56b845b-2167-4bc7-8630-526810c2190b)
+
 **video_id** - Find this on any YouTube video by visiting the page and extracting it from the url. If a YouTube video does not have a transcript the tool will give you an error telling you. 
 
 **fps** - Frames per second allows you to reduce a higher-framed YouTube transcript down to 10fps which is more friendly for batch animations in ComfyUI. You will see the frame counts return based on your fps setting.
@@ -24,3 +26,5 @@ There is a Text2Image tool included with this library so you can superimpose the
 ![t2icui](https://github.com/jtrue/ComfyUI-JaRue/assets/5502214/4587e0d7-0773-4537-ac20-8ca31ad09170)
 
 If you have trouble with the library installs you can remove the jru_text2image.py file from the __init__.py by commenting out the line and rebooting ComfyUI so you can use the YouTube tool.  
+
+I cover this node here in a video: https://youtu.be/Si4mwBQuzYQ?si=X306LyKT5NgDvP7a
