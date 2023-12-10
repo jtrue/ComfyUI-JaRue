@@ -13,11 +13,10 @@ class YouTube2Prompt_jru:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "video_id": ("STRING", {"default":"VjMoRb5f-EQ","multiline": False}),
+                "video_id": ("STRING", {"default":"ddksodVRqsY","multiline": False}),
                 "fps": ("INT", {"default":10,"min":1,"max": 1000}),
                 "begin": ("INT", {"default":0,"min":0,"max": 10000000}),
                 "cache": (["enable", "disable"], {"default": "enable"}),
-#                "cache_reset":("BOOLEAN", {"default": False}),# "forceInput": True}),},
             }
         }
     RETURN_TYPES = ("STRING", )

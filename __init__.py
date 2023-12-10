@@ -2,16 +2,8 @@ import importlib
 import os
 
 node_list = [ #Add list of .py files containing nodes here
-    "jru_int2string",
-    "jru_concatstringwithdelimiter",
-    "jru_int2floatmultiply",
-    "jru_imagesizer",
-	"jru_float2string",
-    "jru_concatstring",
-    "jru_float2int",
-    "jru_string2int",
-    "jru_int2string",
-    "jru_youtube2prompt"
+    "jru_youtube2prompt",
+    "jru_text2image",
 
 ]
 
