@@ -17,7 +17,7 @@ You will need the YouTube Transcript API Library installed. See link.
 
 https://pypi.org/project/youtube-transcript-api/
 
-After following the install instructions for the plugin https://pypi.org/project/youtube-transcript-api/ you may discover an error in ComfyUI telling you the library is not found. To fix this issue you will need to copy the api library you installed into your ComfyUI custom_nodes directory. 
+After following the install instructions you may discover an error in ComfyUI telling you the library is still not found. To fix this issue you will need to manually copy the api library you installed from your python library into your ComfyUI custom_nodes directory. 
 
 There is a Text2Image tool included with this library so you can superimpose the captions on top of the video but i am still working on the code to tie it all together. Right now, you can generate an image with the caption and manually connect that into a batch video. 
 
