@@ -1,1 +1,10 @@
 youtube-transcript-api
+os
+comfy
+folder_paths
+base64
+io
+PIL
+numpy
+torch
+textwrap
