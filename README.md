@@ -11,3 +11,5 @@ After following the install instructions for the plugin https://pypi.org/project
 There is a Text2Image tool included with this library so you can superimpose the captions on top of the video but i am still working on the code to tie it all together. Right now, you can generate an image with the caption and manually connect that into a batch video. 
 
 ![t2icui](https://github.com/jtrue/ComfyUI-JaRue/assets/5502214/4587e0d7-0773-4537-ac20-8ca31ad09170)
+
+If you have trouble with the library installs you can remove the jru_text2image.py file from the __init__.py by commenting out the line and rebooting ComfyUI so you can use the YouTube tool.  
