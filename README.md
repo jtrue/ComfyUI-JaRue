@@ -14,7 +14,10 @@ There is a Text2Image tool included with this library so you can superimpose the
 If you have trouble with the library installs you can remove the jru_text2image.py file from the __init__.py by commenting out the line and rebooting ComfyUI so you can use the YouTube tool.  
 
 **video_id** - Find this on any YouTube video by visiting the page and extracting it from the url. If a YouTube video does not have a transcript the tool will give you an error telling you. 
+
 **fps** - Frames per second allows you to reduce a higher-framed YouTube transcript down to 10fps which is more friendly for batch animations in ComfyUI. You will see the frame counts return based on your fps setting.
+
 **begin** - If you want to start reading the transcript later in the timeline you can enter a starting frame here and the frame counts will adjust. If you do this more than once you need to keep track of the last number and add it to the new number because the begin frame will always start at the beginning of the YouTube video and not at your last begin point. 
+
 **cache** - Enable cache to avoid spamming YouTube. When you disable cache and press queue the prior cache will be deleted and will force the tool to ask YouTube for the transcripts again. 
 
