@@ -3,7 +3,7 @@ import os
 
 node_list = [ #Add list of .py files containing nodes here
     "jru_youtube2prompt",
-    "jru_text2image",
+#    "jru_text2image",
 
 ]
 
