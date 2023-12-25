@@ -1,5 +1,5 @@
 # ComfyUI-JaRue
-Takes a YouTube Video ID and pulls a transcript (if available) from the YouTube server and delivers it in a format you can link to AnimatedDiff or any other ComfyUI batch animation. 
+Takes a YouTube Video ID and pulls a transcript (if available) from the YouTube server and delivers it in a format you can link to AnimatedDiff or any other ComfyUI batch prompt animation. 
 
 ![youtube2prompt](https://github.com/jtrue/ComfyUI-JaRue/assets/5502214/d56b845b-2167-4bc7-8630-526810c2190b)
 
